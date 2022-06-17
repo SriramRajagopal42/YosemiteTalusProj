@@ -1,0 +1,36 @@
+/**** Start of imports. If edited, may not auto-convert in the playground. ****/
+var geometry = 
+    /* color: #00ffff */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-119.75084182128907, 37.80171523846657],
+          [-119.75084182128907, 37.66867245000128],
+          [-119.44253798828126, 37.66867245000128],
+          [-119.44253798828126, 37.80171523846657]]], null, false);
+/***** End of imports. If edited, may not auto-convert in the playground. *****/
+// A digital elevation model.
+var dem = ee.Image('NASA/NASADEM_HGT/001').select('elevation');
+var newDem = dem.visualize({min: 0, max: 5000});
+
+// Calculate slope. Units are degrees, range is [0,90).
+var slope = ee.Terrain.slope(dem);
+var newSlope = slope.visualize({min: 0, max: 89.99});
+
+// Calculate aspect. Units are degrees where 0=N, 90=E, 180=S, 270=W.
+var aspect = ee.Terrain.aspect(dem);
+var newAspect = aspect.visualize({min: 0, max: 359.99});
+
+// Display slope and aspect layers on the map.
+Map.setCenter(-119.5936, 37.7456, 11);
+Map.addLayer(newSlope, {}, 'Slope');
+Map.addLayer(newAspect, {}, 'Aspect');
+Map.addLayer(newDem, {}, 'Elevation');
+
+//Export all data to Google Drive
+Export.image.toDrive(newDem, 'Elevation', 'Yosemite', geometry);
+Export.image.toDrive(newSlope, 'Slope', 'Yosemite', geometry);
+Export.image.toDrive(newAspect, 'Aspect', 'Yosemite', geometry);
