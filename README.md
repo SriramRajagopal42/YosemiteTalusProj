@@ -50,7 +50,7 @@ Example:
 ![image](https://user-images.githubusercontent.com/104661603/189474730-fbf0e2f3-7553-46d7-bb6f-7da8e4498e50.png)
 
 ## Step 9:
-Check this GitHub project and find the "FinalTalus.ipynb" file. Then, open it in Google Colab.
+Check this GitHub project and find the "FinalTalus.ipynb" file. Then, open it in Google Colab using the button.
 
 Example:
 ![image](https://user-images.githubusercontent.com/104661603/189474895-3c889c88-8d9d-4a8d-aa44-85d6f8a4d9b5.png)
