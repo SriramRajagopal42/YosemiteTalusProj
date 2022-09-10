@@ -50,19 +50,34 @@ Example:
 ![image](https://user-images.githubusercontent.com/104661603/189474730-fbf0e2f3-7553-46d7-bb6f-7da8e4498e50.png)
 
 ## Step 9:
-Check this GitHub project and find the "FinalTalus.ipynb" file. Then, open it in Google Colab using the button.
-
-Example:
-![image](https://user-images.githubusercontent.com/104661603/189474895-3c889c88-8d9d-4a8d-aa44-85d6f8a4d9b5.png)
+Check this GitHub project and find the "model.h5" file. Download that file, and save it to Google Drive.
 
 ## Step 10:
-Run the first cell (The one to import data stored in Google Drive). Do this by clicking on the cell, and then clicking on the small play button that appears on the left of the cell
+Check this GitHub project and find the "FinalTalus.ipynb" file. Then, open it in Google Colab using the button.
 
-Example:
-![image](https://user-images.githubusercontent.com/104661603/189475018-9116b243-3376-4b11-b9ea-df9f71c673ad.png)
+Example 1:
+
+![image](https://user-images.githubusercontent.com/104661603/189475166-ef1424a3-53a6-420d-9def-8dde339c801a.png)
+
+
+Example 2:
+![image](https://user-images.githubusercontent.com/104661603/189474895-3c889c88-8d9d-4a8d-aa44-85d6f8a4d9b5.png)
 
 ## Step 11:
+Run the first cell (The one to import data stored in Google Drive). Do this by clicking on the cell, and then clicking on the small play button that appears on the left of the cell. Then, follow the instructions.
+
+Example:
+
+![image](https://user-images.githubusercontent.com/104661603/189475018-9116b243-3376-4b11-b9ea-df9f71c673ad.png)
+
+## Step 12:
 Go through the entire file and look for the green comments. Most are instructions that will help you set up the Colab correctly. Follow all of those instructions, and then begin running each cell in order.
+
+IMPORTANT INFO: Most of the directions are regarding finding a path to a certain Google Drive file or folder. In order to find that path, click on the files tab to the left and choose the correct drop down options to get to your folder/file. Then, click on the three dots next to the file/folder name and click "Copy path". This will copy the path name to your clipboard, so you can just paste it where required.
+
+Example:
+
+![image](https://user-images.githubusercontent.com/104661603/189475378-23281fc5-7a90-4041-9fda-f96988d0aeb4.png)
 
 ## Finished!
 You should now have a file that displays the areas where a talus is expected to be.
