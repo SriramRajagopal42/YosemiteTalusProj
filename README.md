@@ -1,6 +1,10 @@
+# Motivation
+
+# Methods
+
 # How to use the machine learning model
 
-## Step 1: 
+## Step 1: Download data
 Get the DEM, Satellite, Slope, and Aspect data for the region you want to use the model on (Data should be at least 10m). I recommend using https://apps.nationalmap.gov/downloader/
 
 ## Step 2: 
