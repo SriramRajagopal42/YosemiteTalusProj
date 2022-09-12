@@ -90,4 +90,4 @@ Example:
 ![image](https://user-images.githubusercontent.com/104661603/189475378-23281fc5-7a90-4041-9fda-f96988d0aeb4.png)
 
 ## Finished!
-You should now have a file that displays the areas where a talus is expected to be in the output folder you previously made. It is a jpg, though, so unfortunately, there won't be any geographical data stored.
+You should now have a file that displays the areas where a talus is expected to be in the output folder you previously made. Check the image that is displayed to make sure the data seems accurate. It is a jpg, though, so unfortunately, there won't be any geographical data stored.
