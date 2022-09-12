@@ -34,8 +34,8 @@ What you should see:
 ## Step 6: Download all files from GEE
 Repeat Step 5 for the remaining tasks.
 
-## Step 7: Create Chunks and MegaNumpy folders
-Go to Google Drive and create 2 empty folders
+## Step 7: Create Chunks, Output, and MegaNumpy folders
+Go to Google Drive and create 3 empty folders
 
 Folder 1:
 
@@ -45,6 +45,10 @@ Folder 1:
 Folder 2:
 
 ![image](https://user-images.githubusercontent.com/104661603/189474606-999cf6c4-cb7d-48b7-8493-417c26b80f07.png)
+
+Folder 3:
+
+![image](https://user-images.githubusercontent.com/104661603/189577335-4c9748a2-3bbe-434e-ba46-283cd96cc7ba.png)
 
 ## Step 8: Create subfolders in Chunks folder
 Go inside of the "Chunks" Folder and create four more empty folders, one for each input type(DEM, Satellite, Slope, Aspect)
@@ -67,7 +71,7 @@ Example 1:
 Example 2:
 ![image](https://user-images.githubusercontent.com/104661603/189474895-3c889c88-8d9d-4a8d-aa44-85d6f8a4d9b5.png)
 
-## Step 11: ive Colab access to Google Drive
+## Step 11: Give Colab access to Google Drive
 Run the first cell (The one to import data stored in Google Drive). Do this by clicking on the cell, and then clicking on the small play button that appears on the left of the cell. Then, follow the instructions.
 
 What you should see:
@@ -86,4 +90,4 @@ Example:
 ![image](https://user-images.githubusercontent.com/104661603/189475378-23281fc5-7a90-4041-9fda-f96988d0aeb4.png)
 
 ## Finished!
-You should now have a file that displays the areas where a talus is expected to be.
+You should now have a file that displays the areas where a talus is expected to be in the output folder you previously made. It is a jpg, though, so unfortunately, there won't be any geographical data stored.
